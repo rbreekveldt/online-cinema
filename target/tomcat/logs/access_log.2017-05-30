@@ -1,0 +1,6 @@
+127.0.0.1 - - [30/May/2017:13:08:52 +0200] "GET /cinema/ws/list HTTP/1.1" 200 3199 http-bio-8080-exec-1 411
+127.0.0.1 - - [30/May/2017:13:09:26 +0200] "GET /cinema/movies HTTP/1.1" 500 25931 http-bio-8080-exec-3 2718
+127.0.0.1 - - [30/May/2017:13:09:27 +0200] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+127.0.0.1 - - [30/May/2017:13:32:58 +0200] "GET /cinema/movies HTTP/1.1" 404 1019 http-bio-8080-exec-6 67
+127.0.0.1 - - [30/May/2017:13:33:23 +0200] "GET /cinema/ws/list HTTP/1.1" 200 3199 http-bio-8080-exec-1 46
+127.0.0.1 - - [30/May/2017:13:33:34 +0200] "GET /cinema/movies HTTP/1.1" 404 1019 http-bio-8080-exec-10 50
