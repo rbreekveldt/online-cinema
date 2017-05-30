@@ -1,5 +1,4 @@
-Small changes
-
+just a small change!!
 # JEE and Spring application: Online cinema
 ## Preface
 The main purpose of this project is to learn and demonstrate various JEE/Spring features. Application shows simple movie database and will offer many demonstrative functionalities like inserting and updating movie informations, sharing on facebook and twitter, offering web services etc. The app is work in progress!
