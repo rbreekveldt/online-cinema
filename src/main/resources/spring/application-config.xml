@@ -54,7 +54,7 @@
 	<tx:annotation-driven />
 
 	<bean id="messageSource"
-		class="org.springframework.context.support.ResourceBundleMessageSource">
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 		<property name="basenames" value="WEB-INF/i18n/application" />
 		<property name="fallbackToSystemLocale" value="false" />
 	</bean>
