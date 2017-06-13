@@ -1,1 +1,6 @@
+#ignore maven build target dir
 /target/
+
+#ignore IntelliJ
+*.iml
+.idea/
