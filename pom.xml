@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.samples.service.service</groupId>
 	<artifactId>cinema</artifactId>
-	<version>0.7-SNAPSHOT</version>
+	<version>0.8-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 
@@ -393,7 +393,7 @@
             		<goal>jar</goal>
             		</goals>
             		<configuration>
-            			<additionalparam>${javadoc.opts}</additionalparam>
+            			<additionalparam>-Xdoclint:none</additionalparam>
             		</configuration>
             		</execution>
             	</executions>
@@ -408,7 +408,7 @@
             	<groupId>org.apache.maven.plugins</groupId>
             	<artifactId>maven-javadoc-plugin</artifactId>
             	<configuration>
-            	<additionalparam>${javadoc.opts}</additionalparam>
+            	<additionalparam>-Xdoclint:none</additionalparam>
             	</configuration>
             	</plugin>
             	</reportPlugins>
