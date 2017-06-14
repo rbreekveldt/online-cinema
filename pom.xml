@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.samples.service.service</groupId>
 	<artifactId>cinema</artifactId>
-	<version>0.13-SNAPSHOT</version>
+	<version>0.15-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 
@@ -11,7 +10,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
    <connection>scm:git:https://rbreekveldt@bitbucket.tmns.com/scm/dp/devops-traineeship-may2017.git</connection>
    <developerConnection>scm:git:https://rbreekveldt@bitbucket.tmns.com/scm/dp/devops-traineeship-may2017.git</developerConnection>
    <url>https://bitbucket.tmns.com/scm/dp/devops-traineeship-may2017</url>
-  <tag>Cinema-0.1</tag>
+  <tag>cinema-0.14</tag>
   </scm>
   
   <distributionManagement>
@@ -357,7 +356,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
             <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-release-plugin</artifactId>
-            <version>2.3.2</version>
+            <version>2.5.3</version>
             <configuration>
             	<tagNameFormat>v@{project.verion}</tagNameFormat>
             	<autoVersionSubmodules>true</autoVersionSubmodules>
