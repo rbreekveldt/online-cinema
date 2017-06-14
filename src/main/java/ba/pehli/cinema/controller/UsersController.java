@@ -32,6 +32,7 @@ import ba.pehli.cinema.utils.EmailUtils;
  *
  */
 
+@SuppressWarnings("ALL")
 @Controller
 @RequestMapping("/users")
 public class UsersController {
