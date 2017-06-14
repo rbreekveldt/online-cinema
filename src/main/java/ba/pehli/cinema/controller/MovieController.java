@@ -63,7 +63,6 @@ import ba.pehli.cinema.utils.EmailUtils;
  *
  */
 
-@SuppressWarnings("ALL")
 @Controller
 @RequestMapping(value="/movies")
 public class MovieController{

@@ -20,7 +20,6 @@ import ba.pehli.cinema.domain.User;
  * @author almir
  *
  */
-@SuppressWarnings("ALL")
 public class EmailUtils {
 	private JavaMailSender mailSender;
 	private VelocityEngine velocityEngine;
