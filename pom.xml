@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.samples.service.service</groupId>
 	<artifactId>cinema</artifactId>
-	<version>0.6-SNAPSHOT</version>
+	<version>0.7-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 
@@ -390,7 +390,7 @@
             		<execution>
             		<id>attach-javadocs</id>
             		<goals>
-            		<goals>jar</goals>
+            		<goal>jar</goal>
             		</goals>
             		<configuration>
             			<additionalparam>${javadoc.opts}</additionalparam>
