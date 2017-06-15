@@ -2,6 +2,7 @@
 ## Preface
 The main purpose of this project is to learn and demonstrate various JEE/Spring features. Application shows simple movie database and will offer many demonstrative functionalities like inserting and updating movie informations, sharing on facebook and twitter, offering web services etc. The app is work in progress!
 
+Small Change
 ## Getting Started
 
 If you wish to try this example, please download source code from repository clicking on [link](https://github.com/almirpehratovic/cinema/archive/master.zip). Extract the project somewhere on disk and turn on Spring STS. Inside Spring STS import project by choosing File - Import - Maven - Existing Maven Project and navigating to extracted folder. Spring STS will import project and download all java dependencies configured in pom.xml file.
