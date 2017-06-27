@@ -452,32 +452,8 @@
 						<artifactId>perfmon</artifactId>
 						</exclusion>
 						<exclusion>
-						<groupId>org.apache.hadoop</groupId>
-						<artifactId>hadoop-core</artifactId>
-						</exclusion>
-						<exclusion>
-						<groupId>org.apache.hbase</groupId>
-						<artifactId>hbase</artifactId>
-						</exclusion>
-						<exclusion>
 						<groupId>org.apache.jmeter</groupId>
 						<artifactId>jorphan</artifactId>
-						</exclusion>
-						<exclusion>
-						<groupId>org.apache.bsf</groupId>
-						<artifactId>bsf-api</artifactId>
-						</exclusion>
-						<exclusion>
-						<groupId>org.bouncycastle</groupId>
-						<artifactId>bcprov-jdk15</artifactId>
-						</exclusion>
-						<exclusion>
-						<groupId>javax.activation</groupId>
-						<artifactId>activation</artifactId>
-						</exclusion>
-						<exclusion>
-						<groupId>commons-logging</groupId>
-						<artifactId>commons-logging</artifactId>
 						</exclusion>
 					</exclusions>
 					</dependency>
@@ -517,6 +493,21 @@
                 </build>
                 </profile>
                 -->
+		<!--
+		 <profile>
+		 <id>local<id>
+		 <properties>
+		 	<performancetest.webservice.host>localhost</performancetest.webservice.host>
+		 	<performancetest.webservice.port>8080</performancetest.webservice.port>
+		 </properties>
+		 </profile>
+		 <profile>
+		 <id>jenkins</id>
+		 <properties>
+		 	<performancetest.webservice.host>localhost</performancetest.webservice.host>
+		 	<performancetest.webservice.port>9999</performancetest.webservice.port>
+		 </properties>
+		 </profile>-->
 	</profiles>
 
 
