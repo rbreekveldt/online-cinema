@@ -400,6 +400,8 @@
 					<!--				<releaseProfiles>releases</releaseProfiles>
                                         <tagNameFormat>@{project.artifactId}-@{project.version}</tagNameFormat> -->
 					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<pushChanges>false</pushChanges>
+					<preparationGoals>initialize</preparationGoals>
 				</configuration>
 			</plugin>
 
