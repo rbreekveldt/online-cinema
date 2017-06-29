@@ -60,13 +60,8 @@ import static org.junit.Assert.*;
  */
 public class MovieControllerTest {
     @Test
-    public void testlist() throws Exception {
-        MovieController controller = new MovieController();
-        Model expectedOutput="1, model";
-        Model actualOutput=
-        controller.list("1, model")
-        assertEquals(expectedOutput,actualOutput);
-    }
+    public void list() throws Exception {
+           }
 
     @Test
     public void showPage() throws Exception {
