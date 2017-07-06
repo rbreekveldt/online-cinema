@@ -1,5 +1,6 @@
 package ba.pehli.cinema.test;
 
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -8,6 +9,7 @@ import org.openqa.selenium.*;
 
 public class CinemaSeleniumTest {
 
+    @Test
     public static void main(String[] args) throws InterruptedException {
         //Create firefox drive to drive the browser
         //WebDriver driver = new ChromeDriver();
