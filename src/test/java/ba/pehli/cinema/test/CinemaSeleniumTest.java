@@ -10,7 +10,7 @@ import org.openqa.selenium.*;
 public class CinemaSeleniumTest {
 
     @Test
-    public static void main(String[] args) throws InterruptedException {
+    public void main() throws InterruptedException {
         //Create firefox drive to drive the browser
         //WebDriver driver = new ChromeDriver();
         WebDriver driver = new ChromeDriver();
