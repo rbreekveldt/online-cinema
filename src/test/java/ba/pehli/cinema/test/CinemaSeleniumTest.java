@@ -1,21 +1,16 @@
-package ba.pehli.cinema.controller;
+package ba.pehli.cinema.test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import java.util.regex.Pattern;
-import java.util.concurrent.TimeUnit;
-import org.junit.*;
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.Select;
+
 
 public class CinemaSeleniumTest {
 
     public static void main(String[] args) throws InterruptedException {
         //Create firefox drive to drive the browser
-        //WebDriver driver = new FirefoxDriver();
+        //WebDriver driver = new ChromeDriver();
         WebDriver driver = new ChromeDriver();
         //Open cinema home page
         driver.get("http://localhost:8080/cinema/movies");
