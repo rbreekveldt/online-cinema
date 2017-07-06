@@ -12,8 +12,8 @@ public class CinemaSeleniumTest {
     @Test
     public void main() throws InterruptedException {
         //Create firefox drive to drive the browser
-        //WebDriver driver = new ChromeDriver();
-        WebDriver driver = new ChromeDriver();
+        //WebDriver driver = new FirefoxDriver();
+        WebDriver driver = new FirefoxDriver();
         //Open cinema home page
         driver.get("http://localhost:8080/cinema/movies");
         //Fill in username
