@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.*;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 
 public class CinemaSeleniumTest {
@@ -13,7 +14,7 @@ public class CinemaSeleniumTest {
     public void main() throws InterruptedException {
         //Create firefox drive to drive the browser
         //WebDriver driver = new ChromeDriver();
-        WebDriver driver = new ChromeDriver();
+        HtmlUnitDriver driver = new HtmlUnitDriver();
         //Open cinema home page
         driver.get("http://localhost:8080/cinema/movies");
         //Fill in username
